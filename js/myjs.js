@@ -10,14 +10,14 @@ document.querySelectorAll(".hamburguer")[0].addEventListener("click", function()
     }else{
         document.querySelectorAll(".hamburguer")[0].style.color="#000";
         icon_hamburguer = true;
-    }
+    } 
 
-    enlaces-header.classList.toggle("hamburgueropen");
+    enlaces_header.classList.toggle("hamburgueropen");
 
 })
 
-document.querySelector(".enlaces-header")[0].addEventListener("click",function(){
-    enlaces-header.classList.toggle("hamburgueropen"); 
-    document.querySelectorAll(".hamburguer")[0].style.color="#000"; 
+// document.querySelector(".enlaces-header")[0].addEventListener("click",function(){
+//     enlaces-header.classList.toggle("hamburgueropen"); 
+//     document.querySelectorAll(".hamburguer")[0].style.color="#000"; 
     
-})
+// })
